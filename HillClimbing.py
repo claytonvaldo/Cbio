@@ -1,5 +1,6 @@
 import random
 import numpy as np
+
 MAX = 'MAX'
 MIN = 'MIN'
 
@@ -54,3 +55,4 @@ print(f"Minimização -> x = {x:.4f}, f(x) = {valor:.4f}")
 # Maximização
 x, valor = hillClimbing(f3, x_inicio, otimizador=MAX)
 print(f"Maximização -> x = {x:.4f}, f(x) = {valor:.4f}")
+
