@@ -282,7 +282,7 @@ if __name__ == "__main__":
         for j in range(5):
             formiga_trilhas.append(colonia.formiga())
 
-    # Imprime as 500 primeiras trilhas (compatível com o Java)
+    # Imprime as 500 primeiras trilhas
     for i in range(500):
         trilha = formiga_trilhas[i]
         # imprime como "A-B: dist, ferom" etc.
